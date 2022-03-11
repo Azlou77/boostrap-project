@@ -200,3 +200,17 @@ width: 400px;
     color: #d82c2e;
     margin: 15px 0;
 }
+/*portfolio*/
+#portfolio{
+    background-color: #d82c2e;
+
+}
+#portfolio .heading h2{
+    color: #fff;
+}
+#portfolio img{
+    filter: grayscale(80%);
+}
+#portfolio .col-md-4{
+    margin-bottom: 20px;
+}

@@ -73,17 +73,19 @@ ul{
     text-transform: uppercase;
     margin-bottom:20px;
 
+
 }
 
 .profile-picture img{
     text-align: center;
-    margin: 10px 0px 20px 482px;
+    margin: 10px 0px 20px 520px;
    
 }
 
 /*skills*/
 .row .col-6{
     padding-left:150px;
+    margin-bottom: 80px;
 }
 .progress  {
 width: 400px;
@@ -91,7 +93,18 @@ width: 400px;
  .progress-bar {
     background-color:#d82c2e ;
     font-size: 1.5em;
-
+ }
+.heading h3{
+    text-transform: uppercase;
+    margin-bottom:20px;
+}
+.img-bdd img{
+    max-width:10%;
+    margin-bottom: 80px;
+}
+.web-tools span{
+    max-width:10%;
+    padding-left: 50px;
 }
 /*expérience */
 #experience{

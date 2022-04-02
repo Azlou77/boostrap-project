@@ -105,7 +105,17 @@ width: 400px;
 .web-tools span{
     max-width:10%;
     padding-left: 50px;
+    margin-bottom: 80px;
 }
+.languages  img{
+    max-width:20%;
+    padding-left: 100px;
+    margin-right: 50px;
+    
+ }
+
+
+
 /*expérience */
 #experience{
     background-color: #d82c2e;

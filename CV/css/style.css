@@ -259,8 +259,19 @@ width: 400px;
     filter: grayscale(80%);
 }
 #portfolio .col-md-4{
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
+#portfolio .container .row img {
+    margin: 50px 0 0 50px;
+    width: 450px;
+    height: 270px;
+    
+  }
+
+#portfolio .container .row img:hover {
+  filter: none; -webkit-filter: grayscale(0%);
+
+  }
 /*recommendations*/
 #recommendations .heading h2{
     color: #d82c2e;

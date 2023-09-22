@@ -1,0 +1,23 @@
+.icon-timeline{
+    border-radius: 50%;
+    background-color: orange;
+}
+
+/*cards*/
+.card-body{
+    background-color: black;
+    color: white;
+}
+
+/* vertical timeline */
+.timeline::before{
+    content: ' ';
+    background: orange;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}

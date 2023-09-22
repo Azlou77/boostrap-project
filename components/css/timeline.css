@@ -4,15 +4,36 @@
 }
 
 /*cards*/
+.card{
+    margin:-58px 0 0 5%;
+}
+/*card header*/
+.timeline-header{
+    background-color: orange;
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* card body*/
 .card-body{
     background-color: black;
     color: white;
+    
 }
+
+
+/*timeline body*/
+h5.card-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+
 
 /* vertical timeline */
 ul.timeline {
     list-style-type: none;
-    position: relative;
     padding-left: 1rem;
     margin: 0;
 }
@@ -29,3 +50,4 @@ ul.timeline {
     border-radius: 1rem;
     margin-top: auto;
 }
+

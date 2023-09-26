@@ -5,3 +5,7 @@ a.nav-link:hover{
     color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity)) !important;
     background-color: white;
 }
+.rounded-pill{
+    width: 40px;
+    height: 40px;
+}

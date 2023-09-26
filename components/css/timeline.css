@@ -32,6 +32,15 @@ h5.card-title{
 
 
 /* vertical timeline */
+.vertical-line{
+    background-color:#C80000;
+    color:#C80000;
+    rotate: 90deg;
+    position:absolute;
+    left:130px;
+    top:0;
+    height: auto;
+}
 ul.timeline {
     list-style-type: none;
     padding-left: 1rem;

@@ -1,0 +1,17 @@
+.hero{
+    min-height: 100vh;
+    background: url("../img/The\ Shelby\ Family.jpg") center/cover no-repeat fixed;
+    color: white;
+}
+
+a.nav-link{
+    color:white;
+}
+a.nav-link:hover{
+    color: rgba(var(--bs-secondary-rgb),var(--bs-bg-opacity)) !important;
+    background-color: white;
+}
+.rounded-pill{
+    width: 40px;
+    height: 40px;
+}

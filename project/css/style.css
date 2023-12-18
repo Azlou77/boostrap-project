@@ -5,6 +5,12 @@ body{
 }
 
 /*section skills*/
+.navbar-nav{
+    padding-left: 55% !important;
+}
 .skills-text{
     margin: -5px 0 0 5px;
+}
+svg{
+    fill: blue
 }

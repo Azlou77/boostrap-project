@@ -11,3 +11,8 @@
 svg{
     fill: blue
 }
+
+/*footer*/
+footer svg{
+    margin-left: 10px;
+}

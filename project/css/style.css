@@ -1,6 +1,10 @@
 /*general*/
 
+/*section presenation*/
+#presentation h2{
+    font-weight: bold;
 
+}
 /*section skills*/
 .navbar-nav{
     padding-left: 55% !important;

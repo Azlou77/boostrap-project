@@ -29,9 +29,15 @@ svg{
 }
 @media (max-width: 768px) {
     img{
-        margin-top: 50px
+        margin-top: 50px;
     }
+    .col-6.side-picture{
+        width: 92%;
+        margin-left: auto;
+    }
+   
 }
+
 /*footer*/
 footer svg{
     margin-left: 10px;

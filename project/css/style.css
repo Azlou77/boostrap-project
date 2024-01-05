@@ -37,6 +37,18 @@ svg{
     }
    
 }
+/*project section*/
+@media (max-width: 768px) {
+    .card{
+        margin-bottom: 20px;
+    }
+    .card-img-top{
+        width: 100%;
+        margin-top: auto;
+    }
+   
+}
+
 
 /*footer*/
 footer svg{

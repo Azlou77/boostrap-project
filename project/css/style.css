@@ -48,6 +48,13 @@ svg{
     }
    
 }
+/*contact section*/
+@media (max-width: 768px) {
+    figure.col-10{
+        margin-left: revert;
+    }
+   
+}
 
 
 /*footer*/

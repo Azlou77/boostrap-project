@@ -1,13 +1,22 @@
 /*general*/
-.container{
-    padding-left: 0;
-}
+
 /* navbar */
-.navbar-brand{
-    padding-left: 2.75em;
+a.navbar-brand{
+    display: flex;
+    align-items: center;
+    flex-wrap: inherit;
+    justify-content: space-beetween;
+    margin-left: 8.5%;
+    padding-left: calc(var(--bs-gutter-x) * .5);
 }
+
 ul.navbar-nav{
-    padding-left: 8.5% !important;
+    margin-left: 8.5%;
+}
+.navbar-expand-md .navbar-collapse{
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-left:  14px;
 }
 
 /*section presenation*/
@@ -32,8 +41,7 @@ svg{
         margin-top: 50px;
     }
     .col-6.side-picture{
-        width: 92%;
-        margin-left: auto;
+        width: 100%
     }
    
 }
@@ -49,15 +57,25 @@ svg{
    
 }
 /*contact section*/
-@media (max-width: 768px) {
-    figure.col-10{
-        margin-left: revert;
-    }
-   
-}
+
 
 
 /*footer*/
 footer svg{
     margin-left: 10px;
+}
+@media (max-width: 768px) {
+    footer .col-4{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    footer svg{
+        width: 30px;
+    }
+    .align-items-center{
+        width: auto !important;
+   
+}
 }

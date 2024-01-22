@@ -76,6 +76,13 @@ footer svg{
     }
     .align-items-center{
         width: auto !important;
-   
-}
+   }
+   footer .col-md-6{
+       width: 50%;
+       flex: 0 0 auto;
+   }
+   footer .col-md-12{
+         display: flex;
+         justify-content: space-evenly;
+   }
 }

@@ -64,6 +64,10 @@ svg{
 footer svg{
     margin-left: 10px;
 }
+footer ul li a{
+    text-decoration: none;
+   
+}
 @media (max-width: 768px) {
     footer .col-4{
         display: flex;
@@ -84,5 +88,9 @@ footer svg{
    footer .col-md-12{
          display: flex;
          justify-content: space-evenly;
+   }
+   footer ul li a{
+         text-decoration: none;
+        
    }
 }

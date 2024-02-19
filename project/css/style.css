@@ -74,11 +74,38 @@ ul.navbar-nav li a:hover{
     }
 }
 /*section skills*/
-.skills-text{
+#skills h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    font-size: 30px;
+}
+#skills .col-lg-3{
+    box-shadow: 0 0 3px 0px black;
+    background-color: #0d6efd;
+    color: white;
+    margin: 50px 50px 0;
+}
+#skills .skills-text{
     margin: -5px 0 0 5px;
 }
-svg{
-    fill: blue
+#skills svg{
+    fill: blue;
+}
+#skills ul.database, ul.tools{
+    list-style: none;
+    text-decoration: none;
+    font-size: large;
+    text-align: center;
+
+}
+#skills h3{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 23px;
 }
 @media (max-width: 768px) {
     img{

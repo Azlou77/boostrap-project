@@ -129,10 +129,17 @@ ul.navbar-nav li a:hover{
    
 }
 /*contact section*/
-
-
+#contact button.btn-primary{
+    margin-left: 33%;
+    width: 33%;
+    margin-bottom: 20%;
+}
 
 /*footer*/
+footer button{
+    margin-bottom: auto;
+
+}
 footer svg{
     margin-left: 25px;
     fill: #0d6efd;
